@@ -26,10 +26,10 @@ To store the blockchain, multiple candidate database systems are being evaluated
 
 Core factors to consider in database system selection include [ACID](https://en.wikipedia.org/wiki/ACID_(computer_science)) properties:
 
-* Atomicity:
-* Consistency:
-* Isolation:
-* Durability:
+* Atomicity
+* Consistency
+* Isolation
+* Durability
 
 Candidate systems include, but are not limited to:
 
@@ -67,13 +67,7 @@ The BDCA(s) will poll the clusters for changes in the blockchain including re-or
 
 This information, once collected, will be pushed into the BDSS for further consumption by TurtlePay™ services.
 
-### Blockchain Relay Agent (BRA)
-
-Each BRA is tasked with ensuring that new transactions from the TurtlePay™ platform are properly relayed to the TurtleCoin™ network for processing. Each transaction meant for network consumption is queued by the TurtlePay™ platform before being broadcast to the TurtleCoin™ network. The BRA is charged with verifying that the transaction has been accepted by a node and providing the state of such back to TurtlePay™.
-
-***Note:*** Multiple outgoing transfers from the TurtlePay™ platform may be combined into a single network transaction to make the most efficient use of block space.
-
-### TurtleCoin™ Wallets
+### TurtleCoin™ Wallet Services (TCWS)
 
 As with any blockchain system, a wallet must be maintained. The core functionality of a wallet is as follows:
 
@@ -96,6 +90,12 @@ Benefits of working with the data in the database instead of a traditional walle
 
 ***Note:*** Development of a [Node.js](https://nodejs.org/) native wallet is underway to support this effort.
 
+### Blockchain Relay Agent (BRA)
+
+Each BRA is tasked with ensuring that new transactions from the TurtlePay™ platform are properly relayed to the TurtleCoin™ network for processing. Each transaction meant for network consumption is queued by the TurtlePay™ platform before being broadcast to the TurtleCoin™ network. The BRA is charged with verifying that the transaction has been accepted by a node and providing the state of such back to TurtlePay™.
+
+***Note:*** Multiple outgoing transfers from the TurtlePay™ platform may be combined into a single network transaction to make the most efficient use of block space.
+
 ## TurtlePay™ Services
 
 ### Public Website
@@ -113,6 +113,8 @@ The front-end website provides general functionality similar to other payment ga
 
 API services as used by developers will be provided via standard HTTP RESTful calls to a common gateway interface (i.e. https://api.turtlepay.io).
 
+The API design will be outlined further in another document within this repository at a later date.
+
 #### Standard Libraries
 
 The project will provide a collection of standard utilities to interact with the TurtlePay™ API. Different libraries will be made available upon request and within reason.
@@ -124,3 +126,5 @@ The project will provide a number of example applications including how to integ
 #### Sandbox Mode
 
 A sandbox mode for all API requests will be provided to all developers to aide in the development and testing of applications built on the TurtlePay™ platform.
+
+###### (c) 2018 TurtlePay™ Development Team
