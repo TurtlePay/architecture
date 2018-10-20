@@ -12,7 +12,7 @@ Connecting to the TurtleCoin™ network requires utilizing the `TurtleCoind` bin
 
 To ensure [99.999%](https://en.wikipedia.org/wiki/High_availability#Percentage_calculation) or higher uptime for the services the infrastructure must be designed with high-availability in mind. To accomplish this, multiple redundant layers including [inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication) between those layers is required.
 
-### Node Deployment
+### TurtleCoin™ Node Deployment
 
 Nodes will be deployed in localized clusters. The clusters will consist of not less than 3 nodes at any given time. For the highest availability on the current TurtleCoin™ software, Microsoft Windows hosts will be used.
 
@@ -57,7 +57,7 @@ TurtlePay™ requires the same level of database control and ACID properties as 
 * Audit Trails & Logs as Required
 * Debugging, Troubleshooting, & Support Information
 
-## Software Services
+## Core Services
 
 ### Blockchain Data Collection Agent (BDCA)
 
@@ -77,7 +77,7 @@ Each BRA is tasked with ensuring that new transactions from the TurtlePay™ pla
 
 As with any blockchain system, a wallet must be maintained. The core functionality of a wallet is as follows:
 
-* Hold public & private keys
+* Hold Public & Private Keys
 * Scan blockchain transactions
   * Retrieve outputs meant for our keys
   * Track spendable outputs
@@ -86,12 +86,41 @@ As with any blockchain system, a wallet must be maintained. The core functionali
 
 Our wallet(s), instead of relying on a service such as `turtle-service` will live as native services that interact not with the node but with the data collected by the BDCAs. The wallet(s) will scan transactions and the transaction memory pool directly from the database.
 
-Benefits of working with the data in the database include, but are not limited to:
+Benefits of working with the data in the database instead of a traditional wallet include, but are not limited to:
 
 * Provides a [DMZ](https://en.wikipedia.org/wiki/DMZ_(computing))-style buffer between the TurtleCoin™ network and the TurtlePay™ services
 * Provides an [abstraction layer](https://en.wikipedia.org/wiki/Abstraction_layer) that does not rely on the underlying wallet software
 * Fine grain atomic control of wallet operations
 * Easy to scale and spin up on demand
+  * Permits One Time Use (OTU) wallets
 
 ***Note:*** Development of a [Node.js](https://nodejs.org/) native wallet is underway to support this effort.
 
+## TurtlePay™ Services
+
+### Public Website
+
+The front-end website provides general functionality similar to other payment gateway platforms such as, but not limited to:
+
+* Automated Account Creation
+* Account Maintenance
+* Application Maintenance
+* Security Services
+
+### Developer Tools
+
+#### Application Programming Interface (API)
+
+API services as used by developers will be provided via standard HTTP RESTful calls to a common gateway interface (i.e. https://api.turtlepay.io).
+
+#### Standard Libraries
+
+The project will provide a collection of standard utilities to interact with the TurtlePay™ API. Different libraries will be made available upon request and within reason.
+
+#### Example Applications
+
+The project will provide a number of example applications including how to integrate TurtlePay™ services into other applications or e-commerce platforms upon request and within reason.
+
+#### Sandbox Mode
+
+A sandbox mode for all API requests will be provided to all developers to aide in the development and testing of applications built on the TurtlePay™ platform.
