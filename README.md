@@ -10,6 +10,7 @@ Please take a look around and ask questions via issues, comments on files, or fi
 
 |Document|Description|
 |---|---|
+|[DatabaseStructure.md](https://github.com/TurtlePay/architecture/blob/master/DatabaseStructure.md)|Database Structure|
 |[Goals.md](https://github.com/TurtlePay/architecture/blob/master/Goals.md)|Project Goals|
 |[Architecture.md](https://github.com/TurtlePay/architecture/blob/master/Architecture.md)|Service Delivery Architecture|
 
