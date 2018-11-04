@@ -127,4 +127,10 @@ The project will provide a number of example applications including how to integ
 
 A sandbox mode for all API requests will be provided to all developers to aide in the development and testing of applications built on the TurtlePay™ platform.
 
+## Service Delivery Model
+
+The following diagram has been created to document the design concept driving [Phase 2](https://github.com/TurtlePay/architecture/blob/master/Roadmap.md#phase-2).
+
+![TurtlePay™ v1 Process Flow](https://i.imgur.com/vaTjx5P.png)
+
 ###### (c) 2018 TurtlePay™ Development Team
