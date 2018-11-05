@@ -30,13 +30,13 @@ Phase 2 will consist of the completion of the following items:
 * Implementation of [TurtleCoin™ Wallet Services (TCWS)](https://github.com/TurtlePay/architecture/blob/master/Architecture.md#turtlecoin-wallet-services-tcws) into the platform
     * Includes the development of One Time Use (OTU) wallets
 * v2 of the Application Programming Interface (API)
-    * Payment Requests will be altered to permit the use of the TCWS wallet(s) to serve as intermediatiary wallet(s).
+    * Payment Requests will be altered to permit the use of the TCWS wallet(s) to serve as intermediary wallet(s).
     * Additional methods will be provided to allow developers to poll the status of the transaction(s) via the API
 * Updated standard libraries for interacting with the API
 * TurtlePay™ account services including:
     * Dashboard
     * Account Maintenance
-    * Applicatio Registration
+    * Application Registration
     * Account Creation
 
 ## Phase 4

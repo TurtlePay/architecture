@@ -49,7 +49,7 @@ The highly scalable database will be used in lieu of working directly with the T
 
 ### Standard Services Database
 
-TurtlePay™ requires the same level of database control and ACID properties as the blockchain storage for managing and maintaing information such as the following:
+TurtlePay™ requires the same level of database control and ACID properties as the blockchain storage for managing and maintaining information such as the following:
 
 * Developer Account Services
 * Application Endpoint Information

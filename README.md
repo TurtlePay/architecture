@@ -1,6 +1,6 @@
 # TurtlePay™ Architecture
 
-This is the home of documentation surrounding TurtlePay™, its development, architecture, and discussions surrounding project goals.
+This is the home of documentation surrounding TurtlePay™, its development, architecture, and discussions relating to project goals.
 
 If you have questions regarding the TurtlePay™ project, this repository is the best place to pose those questions unless such questions, bug reports, or code reviews pertain to specific portions of TurtlePay™ code.
 
