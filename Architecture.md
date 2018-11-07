@@ -33,11 +33,11 @@ Core factors to consider in database system selection include [ACID](https://en.
 
 Candidate systems include, but are not limited to:
 
-* [ScyllaDB](https://www.scylladb.com/)
-* [Cassandra](http://cassandra.apache.org/)
-* [Amazon Elasticache](https://aws.amazon.com/elasticache/)
-* [Amazon Redshift](https://aws.amazon.com/redshift/)
-* [Google Cloud SQL](https://cloud.google.com/sql/)
+* [MySQL](https://dev.mysql.com/)
+* [MariaDB](https://mariadb.org/)
+* [PostgreSQL](https://www.postgresql.org/)
+* [SQLite](https://www.sqlite.org/index.html)
+* [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server/default.aspx)
 
 ***Note:*** The selection of a standard cloud provider for this portion of the service is acceptable as the information contained within their data store is **public** knowledge that exists already on the blockchain.
 
