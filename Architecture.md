@@ -131,6 +131,6 @@ A sandbox mode for all API requests will be provided to all developers to aide i
 
 The following diagram has been created to document the design concept driving [Phase 2](https://github.com/TurtlePay/architecture/blob/master/Roadmap.md#phase-2).
 
-![TurtlePay™ v1 Process Flow](https://i.imgur.com/vaTjx5P.png)
+![TurtlePay™ v1 Process Flow](https://i.imgur.com/YP0lSf3.png)
 
 ###### (c) 2018 TurtlePay™ Development Team
