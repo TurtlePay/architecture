@@ -59,7 +59,7 @@ TurtlePay™ requires the same level of database control and ACID properties as 
 
 ## Core Services
 
-### Blockchain Data Collection Agent (BDCA)
+### [Blockchain Data Collection Agent (BDCA)](https://github.com/TurtlePay/blockchain-data-collection-agent)
 
 To mitigate any issues with the node software, data (blocks & transaction mempool) will be collected from the clustered regions at standard intervals.
 
