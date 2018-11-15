@@ -67,7 +67,7 @@ The BDCA(s) will poll the clusters for changes in the blockchain including re-or
 
 This information, once collected, will be pushed into the BDSS for further consumption by TurtlePay™ services.
 
-### TurtleCoin™ Wallet Services (TCWS)
+### [TurtleCoin™ Wallet Services (TCWS)](https://github.com/TurtlePay/turtlepay-wallet)
 
 As with any blockchain system, a wallet must be maintained. The core functionality of a wallet is as follows:
 
