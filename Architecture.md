@@ -90,7 +90,7 @@ Benefits of working with the data in the database instead of a traditional walle
 
 ***Note:*** Development of a [Node.js](https://nodejs.org/) native wallet is underway to support this effort.
 
-### Blockchain Relay Agent (BRA)
+### [Blockchain Relay Agent (BRA)](https://github.com/TurtlePay/blockchain-relay-agent)
 
 Each BRA is tasked with ensuring that new transactions from the TurtlePay™ platform are properly relayed to the TurtleCoin™ network for processing. Each transaction meant for network consumption is queued by the TurtlePay™ platform before being broadcast to the TurtleCoin™ network. The BRA is charged with verifying that the transaction has been accepted by a node and providing the state of such back to TurtlePay™.
 
