@@ -98,7 +98,7 @@ Each BRA is tasked with ensuring that new transactions from the TurtlePay™ pla
 
 ## TurtlePay™ Services
 
-### Public Website
+### [Public Website](https://turtlepay.io)
 
 The front-end website provides general functionality similar to other payment gateway platforms such as, but not limited to:
 
@@ -109,7 +109,7 @@ The front-end website provides general functionality similar to other payment ga
 
 ### Developer Tools
 
-#### Application Programming Interface (API)
+#### [Application Programming Interface (API)](https://docs.turtlepay.io)
 
 API services as used by developers will be provided via standard HTTP RESTful calls to a common gateway interface (i.e. https://api.turtlepay.io).
 
