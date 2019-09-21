@@ -1,10 +1,10 @@
-# TurtlePay™ Architecture
+# TurtlePay® Architecture
 
-This is the home of documentation surrounding TurtlePay™, its development, architecture, and discussions relating to project goals.
+This is the home of documentation surrounding TurtlePay®, its development, architecture, and discussions relating to project goals.
 
-If you have questions regarding the TurtlePay™ project, this repository is the best place to pose those questions unless such questions, bug reports, or code reviews pertain to specific portions of TurtlePay™ code.
+If you have questions regarding the TurtlePay® project, this repository is the best place to pose those questions unless such questions, bug reports, or code reviews pertain to specific portions of TurtlePay® code.
 
-Please take a look around and ask questions via issues, comments on files, or find us on the [TurtleCoin™ Discord](http://chat.turtlecoin.lol) in the `#dev_turtlepay` channel.
+Please take a look around and ask questions via issues, comments on files, or find us on the [TurtleCoin® Discord](http://chat.turtlecoin.lol) in the `#dev_turtlepay` channel.
 
 ## Contents
 
@@ -15,4 +15,4 @@ Please take a look around and ask questions via issues, comments on files, or fi
 |[Roadmap.md](https://github.com/TurtlePay/architecture/blob/master/Roadmap.md)|Project Roadmap|
 |[Architecture.md](https://github.com/TurtlePay/architecture/blob/master/Architecture.md)|Service Delivery Architecture|
 
-###### (c) 2018 TurtlePay™ Development Team
+###### (c) 2018-2019 TurtlePay® Development Team
